@@ -1,20 +1,26 @@
-# virtual envs
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
 .venv/
 venv/
 
-# data
-data/images/*
-data/labels/*
-data/pdfs/*
+# IDE
+.idea/
+.vscode/
 
-# YOLO runs
-runs/
-predictions/*
+# OS specific
+.DS_Store
+Thumbs.db
 
-# system
-__pycache__/
-*.DS_Store
-*.ipynb_checkpoints
-
-# logs
+# Logs & Temp
 *.log
+temp_*.png
+*.tmp
+
+# Jupyter Notebooks output
+notebooks/*.ipynb_checkpoints
+
+# Если хочешь исключить большие файлы (опционально)
+# *.pt  # ← убери эту строку, чтобы best.pt был в Git
