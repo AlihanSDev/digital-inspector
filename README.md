@@ -60,7 +60,7 @@ How confident is the model in its predictions?
 
 ### 5. Processing Speed
 
-Average processing time per image: **0.2 seconds**
+Average processing time per image
 
 ![Speed](screenshots/speed_summary.png)
 
@@ -68,7 +68,7 @@ Average processing time per image: **0.2 seconds**
 
 ### 6. Objects per Page
 
-How many objects appear on a single page? Maximum: 7.
+How many objects appear on a single page? 
 
 ![Objects per page](screenshots/objects_per_page.png)
 
@@ -81,3 +81,4 @@ How many objects appear on a single page? Maximum: 7.
 ```bash
 pip install -r requirements.txt
 ```
+
