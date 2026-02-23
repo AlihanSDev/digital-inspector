@@ -7,7 +7,7 @@ import numpy as np
 import tempfile
 import os
 
-MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "best.pt")
+MODEL_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "dl_yolo.pt")
 model = YOLO(MODEL_PATH)
 ID_TO_CAT = {0: "signature", 1: "stamp", 2: "qr"}
 

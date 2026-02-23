@@ -63,7 +63,7 @@ def infer(model_path, images_dir, out_dir):
 
 if __name__ == "__main__":
     project_root = os.path.dirname(os.path.dirname(__file__))
-    model_path = os.path.join(project_root, "best.pt")
+    model_path = os.path.join(project_root, "dl_yolo.pt")
     images_dir = os.path.join(project_root, "data", "images")
     out_dir = os.path.join(project_root, "predictions")
 
